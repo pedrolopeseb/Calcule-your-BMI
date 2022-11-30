@@ -1,0 +1,13 @@
+name = input('Please, digit your name?')
+weight = float(input(f'{name}, put your weight in Kg:'))
+height = float(input(f'{name} tell me how tall are you:'))
+bmi = peso / altura ** 2
+
+print(f' Your BMI é: {bmi:.2f}')
+
+if 19.5<bmi<24.8:
+    print(f'{nome},congratulations, perhaps you are healthful!')
+elif bmi>24.8:
+    print(f'{nome},you should do workout more frequently and find a nutricionist ')
+elif bmi < 19.5:
+    print(f'{nome},you  are very thin. Find a nutricionist')
